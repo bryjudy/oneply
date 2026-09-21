@@ -1,0 +1,14 @@
+The FEN tokenizer, the 1968-move action table construction, the win-probability
+bucketing, and the bagz record format in chesscore.py follow DeepMind's
+searchless_chess code (https://github.com/google-deepmind/searchless_chess),
+Copyright 2025 DeepMind Technologies Limited, Apache License 2.0. They were
+re-implemented here in numpy/PyTorch and verified equal to the reference on the
+real ChessBench data. The ChessBench dataset itself (Stockfish 16 action values
+and the Lichess puzzle set) is DeepMind's, released with:
+
+  Ruoss, Delétang, Medapati, Grau-Moya, Wenliang, Catt, Reid, Lewis, Veness,
+  Genewein. "Amortized Planning with Large-Scale Transformers: A Case Study on
+  Chess." NeurIPS 2024. arXiv:2402.04494.
+
+Stockfish (https://stockfishchess.org) is GPL-3.0 and is not distributed here;
+the evaluation scripts call whatever binary you point them at.

@@ -1,0 +1,18 @@
+[project]
+name = "little-search-chess"
+version = "0.1.0"
+description = "Action-value chess transformers trained on ChessBench, plus a batched shallow search, benchmarked against node-limited Stockfish"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Bryce Judy" }]
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.3",
+  "numpy>=1.26",
+  "chess>=1.10",
+  "pandas>=2.0",
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8"]

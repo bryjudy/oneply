@@ -1,0 +1,545 @@
+{"event": "start", "params": 6883200, "train_examples": 413204034, "resume_step": 10000, "batch": 4096}
+{"step": 10500, "loss": 3.2982, "examples_seen": 43008000, "examples_per_sec": 12960, "hours": 0.044}
+{"step": 11000, "loss": 3.2699, "examples_seen": 45056000, "examples_per_sec": 13150, "hours": 0.087}
+{"step": 11500, "loss": 3.2344, "examples_seen": 47104000, "examples_per_sec": 13089, "hours": 0.131}
+{"step": 12000, "loss": 3.2053, "examples_seen": 49152000, "examples_per_sec": 13079, "hours": 0.174}
+{"step": 12500, "loss": 3.1754, "examples_seen": 51200000, "examples_per_sec": 13100, "hours": 0.218}
+{"step": 13000, "loss": 3.1509, "examples_seen": 53248000, "examples_per_sec": 13064, "hours": 0.261}
+{"step": 13500, "loss": 3.1316, "examples_seen": 55296000, "examples_per_sec": 13214, "hours": 0.304}
+{"step": 14000, "loss": 3.1097, "examples_seen": 57344000, "examples_per_sec": 13145, "hours": 0.347}
+{"step": 14500, "loss": 3.0859, "examples_seen": 59392000, "examples_per_sec": 13168, "hours": 0.391}
+{"step": 15000, "loss": 3.0711, "examples_seen": 61440000, "examples_per_sec": 13090, "hours": 0.434, "eval_loss": 3.0246, "eval_wp_mae": 0.0536}
+{"step": 15500, "loss": 3.0605, "examples_seen": 63488000, "examples_per_sec": 12896, "hours": 0.478}
+{"step": 16000, "loss": 3.0488, "examples_seen": 65536000, "examples_per_sec": 13068, "hours": 0.522}
+{"step": 16500, "loss": 3.0337, "examples_seen": 67584000, "examples_per_sec": 13052, "hours": 0.565}
+{"step": 17000, "loss": 3.022, "examples_seen": 69632000, "examples_per_sec": 12994, "hours": 0.609}
+{"step": 17500, "loss": 3.0081, "examples_seen": 71680000, "examples_per_sec": 13072, "hours": 0.653}
+{"step": 18000, "loss": 2.9976, "examples_seen": 73728000, "examples_per_sec": 13070, "hours": 0.696}
+{"step": 18500, "loss": 2.9904, "examples_seen": 75776000, "examples_per_sec": 13073, "hours": 0.74}
+{"step": 19000, "loss": 2.9793, "examples_seen": 77824000, "examples_per_sec": 13130, "hours": 0.783}
+{"step": 19500, "loss": 2.9726, "examples_seen": 79872000, "examples_per_sec": 13066, "hours": 0.826}
+{"step": 20000, "loss": 2.9584, "examples_seen": 81920000, "examples_per_sec": 13058, "hours": 0.87, "eval_loss": 2.9139, "eval_wp_mae": 0.047}
+{"step": 20500, "loss": 2.9523, "examples_seen": 83968000, "examples_per_sec": 12850, "hours": 0.914}
+{"step": 21000, "loss": 2.9398, "examples_seen": 86016000, "examples_per_sec": 13022, "hours": 0.958}
+{"step": 21500, "loss": 2.9364, "examples_seen": 88064000, "examples_per_sec": 13092, "hours": 1.001}
+{"step": 22000, "loss": 2.9257, "examples_seen": 90112000, "examples_per_sec": 13074, "hours": 1.045}
+{"step": 22500, "loss": 2.9188, "examples_seen": 92160000, "examples_per_sec": 13139, "hours": 1.088}
+{"step": 23000, "loss": 2.9098, "examples_seen": 94208000, "examples_per_sec": 13096, "hours": 1.132}
+{"step": 23500, "loss": 2.9013, "examples_seen": 96256000, "examples_per_sec": 13031, "hours": 1.175}
+{"step": 24000, "loss": 2.8958, "examples_seen": 98304000, "examples_per_sec": 13141, "hours": 1.219}
+{"step": 24500, "loss": 2.8899, "examples_seen": 100352000, "examples_per_sec": 13184, "hours": 1.262}
+{"step": 25000, "loss": 2.8873, "examples_seen": 102400000, "examples_per_sec": 13203, "hours": 1.305, "eval_loss": 2.8375, "eval_wp_mae": 0.0434}
+{"step": 25500, "loss": 2.8818, "examples_seen": 104448000, "examples_per_sec": 12855, "hours": 1.349}
+{"step": 26000, "loss": 2.8699, "examples_seen": 106496000, "examples_per_sec": 13062, "hours": 1.393}
+{"step": 26500, "loss": 2.8654, "examples_seen": 108544000, "examples_per_sec": 13012, "hours": 1.436}
+{"step": 27000, "loss": 2.8591, "examples_seen": 110592000, "examples_per_sec": 13129, "hours": 1.48}
+{"step": 27500, "loss": 2.855, "examples_seen": 112640000, "examples_per_sec": 13060, "hours": 1.523}
+{"step": 28000, "loss": 2.8486, "examples_seen": 114688000, "examples_per_sec": 13060, "hours": 1.567}
+{"step": 28500, "loss": 2.8427, "examples_seen": 116736000, "examples_per_sec": 13107, "hours": 1.61}
+{"step": 29000, "loss": 2.836, "examples_seen": 118784000, "examples_per_sec": 13067, "hours": 1.654}
+{"step": 29500, "loss": 2.8354, "examples_seen": 120832000, "examples_per_sec": 13171, "hours": 1.697}
+{"step": 30000, "loss": 2.8282, "examples_seen": 122880000, "examples_per_sec": 13027, "hours": 1.741, "eval_loss": 2.7851, "eval_wp_mae": 0.0411}
+{"step": 30500, "loss": 2.8223, "examples_seen": 124928000, "examples_per_sec": 12988, "hours": 1.784}
+{"step": 31000, "loss": 2.8183, "examples_seen": 126976000, "examples_per_sec": 13287, "hours": 1.827}
+{"step": 31500, "loss": 2.8181, "examples_seen": 129024000, "examples_per_sec": 13206, "hours": 1.87}
+{"step": 32000, "loss": 2.8092, "examples_seen": 131072000, "examples_per_sec": 13233, "hours": 1.913}
+{"step": 32500, "loss": 2.8081, "examples_seen": 133120000, "examples_per_sec": 13152, "hours": 1.957}
+{"step": 33000, "loss": 2.8022, "examples_seen": 135168000, "examples_per_sec": 13261, "hours": 1.999}
+{"step": 33500, "loss": 2.7968, "examples_seen": 137216000, "examples_per_sec": 13273, "hours": 2.042}
+{"step": 34000, "loss": 2.7961, "examples_seen": 139264000, "examples_per_sec": 13123, "hours": 2.086}
+{"step": 34500, "loss": 2.7898, "examples_seen": 141312000, "examples_per_sec": 13178, "hours": 2.129}
+{"step": 35000, "loss": 2.7865, "examples_seen": 143360000, "examples_per_sec": 13231, "hours": 2.172, "eval_loss": 2.7592, "eval_wp_mae": 0.0395}
+{"step": 35500, "loss": 2.7853, "examples_seen": 145408000, "examples_per_sec": 13048, "hours": 2.215}
+{"step": 36000, "loss": 2.7812, "examples_seen": 147456000, "examples_per_sec": 13100, "hours": 2.259}
+{"step": 36500, "loss": 2.777, "examples_seen": 149504000, "examples_per_sec": 13096, "hours": 2.302}
+{"step": 37000, "loss": 2.7701, "examples_seen": 151552000, "examples_per_sec": 13357, "hours": 2.345}
+{"step": 37500, "loss": 2.7703, "examples_seen": 153600000, "examples_per_sec": 13211, "hours": 2.388}
+{"step": 38000, "loss": 2.7647, "examples_seen": 155648000, "examples_per_sec": 13222, "hours": 2.431}
+{"step": 38500, "loss": 2.7642, "examples_seen": 157696000, "examples_per_sec": 13153, "hours": 2.474}
+{"step": 39000, "loss": 2.7605, "examples_seen": 159744000, "examples_per_sec": 13129, "hours": 2.518}
+{"step": 39500, "loss": 2.7581, "examples_seen": 161792000, "examples_per_sec": 13121, "hours": 2.561}
+{"step": 40000, "loss": 2.7541, "examples_seen": 163840000, "examples_per_sec": 13174, "hours": 2.604, "eval_loss": 2.7214, "eval_wp_mae": 0.0382}
+{"step": 40500, "loss": 2.7501, "examples_seen": 165888000, "examples_per_sec": 12960, "hours": 2.648}
+{"step": 41000, "loss": 2.7481, "examples_seen": 167936000, "examples_per_sec": 13202, "hours": 2.691}
+{"step": 41500, "loss": 2.745, "examples_seen": 169984000, "examples_per_sec": 13107, "hours": 2.734}
+{"step": 42000, "loss": 2.7425, "examples_seen": 172032000, "examples_per_sec": 13142, "hours": 2.778}
+{"step": 42500, "loss": 2.7407, "examples_seen": 174080000, "examples_per_sec": 13138, "hours": 2.821}
+{"step": 43000, "loss": 2.7386, "examples_seen": 176128000, "examples_per_sec": 13335, "hours": 2.864}
+{"step": 43500, "loss": 2.7352, "examples_seen": 178176000, "examples_per_sec": 13279, "hours": 2.907}
+{"step": 44000, "loss": 2.7331, "examples_seen": 180224000, "examples_per_sec": 13131, "hours": 2.95}
+{"step": 44500, "loss": 2.7305, "examples_seen": 182272000, "examples_per_sec": 13087, "hours": 2.993}
+{"step": 45000, "loss": 2.7278, "examples_seen": 184320000, "examples_per_sec": 13073, "hours": 3.037, "eval_loss": 2.7028, "eval_wp_mae": 0.0373}
+{"step": 45500, "loss": 2.7248, "examples_seen": 186368000, "examples_per_sec": 13082, "hours": 3.08}
+{"step": 46000, "loss": 2.722, "examples_seen": 188416000, "examples_per_sec": 12980, "hours": 3.124}
+{"step": 46500, "loss": 2.7198, "examples_seen": 190464000, "examples_per_sec": 12917, "hours": 3.168}
+{"step": 47000, "loss": 2.7175, "examples_seen": 192512000, "examples_per_sec": 12783, "hours": 3.213}
+{"step": 47500, "loss": 2.7144, "examples_seen": 194560000, "examples_per_sec": 12746, "hours": 3.257}
+{"step": 48000, "loss": 2.7122, "examples_seen": 196608000, "examples_per_sec": 12755, "hours": 3.302}
+{"step": 48500, "loss": 2.7097, "examples_seen": 198656000, "examples_per_sec": 12750, "hours": 3.347}
+{"step": 49000, "loss": 2.7071, "examples_seen": 200704000, "examples_per_sec": 12808, "hours": 3.391}
+{"step": 49500, "loss": 2.7042, "examples_seen": 202752000, "examples_per_sec": 12746, "hours": 3.436}
+{"step": 50000, "loss": 2.7025, "examples_seen": 204800000, "examples_per_sec": 12751, "hours": 3.48, "eval_loss": 2.6817, "eval_wp_mae": 0.036}
+{"step": 50500, "loss": 2.6994, "examples_seen": 206848000, "examples_per_sec": 12579, "hours": 3.525}
+{"step": 51000, "loss": 2.6975, "examples_seen": 208896000, "examples_per_sec": 12749, "hours": 3.57}
+{"step": 51500, "loss": 2.6967, "examples_seen": 210944000, "examples_per_sec": 12738, "hours": 3.615}
+{"step": 52000, "loss": 2.6924, "examples_seen": 212992000, "examples_per_sec": 12786, "hours": 3.659}
+{"step": 52500, "loss": 2.6908, "examples_seen": 215040000, "examples_per_sec": 12773, "hours": 3.704}
+{"step": 53000, "loss": 2.6892, "examples_seen": 217088000, "examples_per_sec": 12790, "hours": 3.748}
+{"step": 53500, "loss": 2.6862, "examples_seen": 219136000, "examples_per_sec": 12807, "hours": 3.793}
+{"step": 54000, "loss": 2.6849, "examples_seen": 221184000, "examples_per_sec": 12810, "hours": 3.837}
+{"step": 54500, "loss": 2.6814, "examples_seen": 223232000, "examples_per_sec": 12829, "hours": 3.881}
+{"step": 55000, "loss": 2.6798, "examples_seen": 225280000, "examples_per_sec": 12796, "hours": 3.926, "eval_loss": 2.6485, "eval_wp_mae": 0.0351}
+{"step": 55500, "loss": 2.6782, "examples_seen": 227328000, "examples_per_sec": 11650, "hours": 3.975}
+{"step": 56000, "loss": 2.6758, "examples_seen": 229376000, "examples_per_sec": 11392, "hours": 4.025}
+{"step": 56500, "loss": 2.6733, "examples_seen": 231424000, "examples_per_sec": 12756, "hours": 4.069}
+{"step": 57000, "loss": 2.6729, "examples_seen": 233472000, "examples_per_sec": 12767, "hours": 4.114}
+{"step": 57500, "loss": 2.6718, "examples_seen": 235520000, "examples_per_sec": 12715, "hours": 4.159}
+{"step": 58000, "loss": 2.6669, "examples_seen": 237568000, "examples_per_sec": 12757, "hours": 4.203}
+{"step": 58500, "loss": 2.665, "examples_seen": 239616000, "examples_per_sec": 12759, "hours": 4.248}
+{"step": 59000, "loss": 2.6638, "examples_seen": 241664000, "examples_per_sec": 12811, "hours": 4.292}
+{"step": 59500, "loss": 2.6631, "examples_seen": 243712000, "examples_per_sec": 12803, "hours": 4.337}
+{"step": 60000, "loss": 2.661, "examples_seen": 245760000, "examples_per_sec": 12731, "hours": 4.381, "eval_loss": 2.6352, "eval_wp_mae": 0.0342}
+{"step": 60500, "loss": 2.6582, "examples_seen": 247808000, "examples_per_sec": 12611, "hours": 4.426}
+{"step": 61000, "loss": 2.6563, "examples_seen": 249856000, "examples_per_sec": 12761, "hours": 4.471}
+{"step": 61500, "loss": 2.6553, "examples_seen": 251904000, "examples_per_sec": 12790, "hours": 4.515}
+{"step": 62000, "loss": 2.653, "examples_seen": 253952000, "examples_per_sec": 12774, "hours": 4.56}
+{"step": 62500, "loss": 2.6514, "examples_seen": 256000000, "examples_per_sec": 12781, "hours": 4.604}
+{"step": 63000, "loss": 2.6499, "examples_seen": 258048000, "examples_per_sec": 12760, "hours": 4.649}
+{"step": 63500, "loss": 2.6476, "examples_seen": 260096000, "examples_per_sec": 12756, "hours": 4.694}
+{"step": 64000, "loss": 2.6455, "examples_seen": 262144000, "examples_per_sec": 12795, "hours": 4.738}
+{"step": 64500, "loss": 2.6449, "examples_seen": 264192000, "examples_per_sec": 12752, "hours": 4.783}
+{"step": 65000, "loss": 2.6441, "examples_seen": 266240000, "examples_per_sec": 12794, "hours": 4.827, "eval_loss": 2.615, "eval_wp_mae": 0.0338}
+{"step": 65500, "loss": 2.641, "examples_seen": 268288000, "examples_per_sec": 12616, "hours": 4.872}
+{"step": 66000, "loss": 2.639, "examples_seen": 270336000, "examples_per_sec": 12806, "hours": 4.917}
+{"step": 66500, "loss": 2.6381, "examples_seen": 272384000, "examples_per_sec": 12782, "hours": 4.961}
+{"step": 67000, "loss": 2.6354, "examples_seen": 274432000, "examples_per_sec": 12714, "hours": 5.006}
+{"step": 67500, "loss": 2.6346, "examples_seen": 276480000, "examples_per_sec": 12766, "hours": 5.05}
+{"step": 68000, "loss": 2.6316, "examples_seen": 278528000, "examples_per_sec": 12731, "hours": 5.095}
+{"step": 68500, "loss": 2.63, "examples_seen": 280576000, "examples_per_sec": 12746, "hours": 5.14}
+{"step": 69000, "loss": 2.6277, "examples_seen": 282624000, "examples_per_sec": 12781, "hours": 5.184}
+{"step": 69500, "loss": 2.6282, "examples_seen": 284672000, "examples_per_sec": 12773, "hours": 5.229}
+{"step": 70000, "loss": 2.6262, "examples_seen": 286720000, "examples_per_sec": 12770, "hours": 5.273, "eval_loss": 2.6037, "eval_wp_mae": 0.0329}
+{"step": 70500, "loss": 2.6246, "examples_seen": 288768000, "examples_per_sec": 12586, "hours": 5.319}
+{"step": 71000, "loss": 2.6203, "examples_seen": 290816000, "examples_per_sec": 12660, "hours": 5.364}
+{"step": 71500, "loss": 2.62, "examples_seen": 292864000, "examples_per_sec": 12751, "hours": 5.408}
+{"step": 72000, "loss": 2.62, "examples_seen": 294912000, "examples_per_sec": 12845, "hours": 5.452}
+{"step": 72500, "loss": 2.6185, "examples_seen": 296960000, "examples_per_sec": 12742, "hours": 5.497}
+{"step": 73000, "loss": 2.6158, "examples_seen": 299008000, "examples_per_sec": 12794, "hours": 5.542}
+{"step": 73500, "loss": 2.6152, "examples_seen": 301056000, "examples_per_sec": 12772, "hours": 5.586}
+{"step": 74000, "loss": 2.6151, "examples_seen": 303104000, "examples_per_sec": 12795, "hours": 5.631}
+{"step": 74500, "loss": 2.6122, "examples_seen": 305152000, "examples_per_sec": 12767, "hours": 5.675}
+{"step": 75000, "loss": 2.6108, "examples_seen": 307200000, "examples_per_sec": 12778, "hours": 5.72, "eval_loss": 2.578, "eval_wp_mae": 0.0324}
+{"step": 75500, "loss": 2.6093, "examples_seen": 309248000, "examples_per_sec": 12558, "hours": 5.765}
+{"step": 76000, "loss": 2.6082, "examples_seen": 311296000, "examples_per_sec": 12792, "hours": 5.809}
+{"step": 76500, "loss": 2.6059, "examples_seen": 313344000, "examples_per_sec": 12812, "hours": 5.854}
+{"step": 77000, "loss": 2.6052, "examples_seen": 315392000, "examples_per_sec": 12809, "hours": 5.898}
+{"step": 77500, "loss": 2.6053, "examples_seen": 317440000, "examples_per_sec": 12778, "hours": 5.943}
+{"step": 78000, "loss": 2.6012, "examples_seen": 319488000, "examples_per_sec": 12809, "hours": 5.987}
+{"step": 78500, "loss": 2.6015, "examples_seen": 321536000, "examples_per_sec": 12777, "hours": 6.032}
+{"step": 79000, "loss": 2.6007, "examples_seen": 323584000, "examples_per_sec": 12809, "hours": 6.076}
+{"step": 79500, "loss": 2.5972, "examples_seen": 325632000, "examples_per_sec": 12827, "hours": 6.12}
+{"step": 80000, "loss": 2.5961, "examples_seen": 327680000, "examples_per_sec": 12798, "hours": 6.165, "eval_loss": 2.5762, "eval_wp_mae": 0.0323}
+{"step": 80500, "loss": 2.5962, "examples_seen": 329728000, "examples_per_sec": 12596, "hours": 6.21}
+{"step": 81000, "loss": 2.5937, "examples_seen": 331776000, "examples_per_sec": 12794, "hours": 6.254}
+{"step": 81500, "loss": 2.5926, "examples_seen": 333824000, "examples_per_sec": 12740, "hours": 6.299}
+{"step": 82000, "loss": 2.5914, "examples_seen": 335872000, "examples_per_sec": 12746, "hours": 6.344}
+{"step": 82500, "loss": 2.5889, "examples_seen": 337920000, "examples_per_sec": 12759, "hours": 6.388}
+{"step": 83000, "loss": 2.5894, "examples_seen": 339968000, "examples_per_sec": 12783, "hours": 6.433}
+{"step": 83500, "loss": 2.5886, "examples_seen": 342016000, "examples_per_sec": 12740, "hours": 6.477}
+{"step": 84000, "loss": 2.5849, "examples_seen": 344064000, "examples_per_sec": 12684, "hours": 6.522}
+{"step": 84500, "loss": 2.5849, "examples_seen": 346112000, "examples_per_sec": 12729, "hours": 6.567}
+{"step": 85000, "loss": 2.5816, "examples_seen": 348160000, "examples_per_sec": 12788, "hours": 6.612, "eval_loss": 2.555, "eval_wp_mae": 0.0316}
+{"step": 85500, "loss": 2.5823, "examples_seen": 350208000, "examples_per_sec": 12598, "hours": 6.657}
+{"step": 86000, "loss": 2.5797, "examples_seen": 352256000, "examples_per_sec": 12766, "hours": 6.701}
+{"step": 86500, "loss": 2.5797, "examples_seen": 354304000, "examples_per_sec": 12769, "hours": 6.746}
+{"step": 87000, "loss": 2.5789, "examples_seen": 356352000, "examples_per_sec": 12803, "hours": 6.79}
+{"step": 87500, "loss": 2.5777, "examples_seen": 358400000, "examples_per_sec": 12825, "hours": 6.835}
+{"step": 88000, "loss": 2.5769, "examples_seen": 360448000, "examples_per_sec": 12764, "hours": 6.879}
+{"step": 88500, "loss": 2.5738, "examples_seen": 362496000, "examples_per_sec": 12740, "hours": 6.924}
+{"step": 89000, "loss": 2.5736, "examples_seen": 364544000, "examples_per_sec": 12806, "hours": 6.968}
+{"step": 89500, "loss": 2.5722, "examples_seen": 366592000, "examples_per_sec": 12813, "hours": 7.013}
+{"step": 90000, "loss": 2.5694, "examples_seen": 368640000, "examples_per_sec": 12798, "hours": 7.057, "eval_loss": 2.5381, "eval_wp_mae": 0.0307}
+{"step": 90500, "loss": 2.5699, "examples_seen": 370688000, "examples_per_sec": 12716, "hours": 7.102}
+{"step": 91000, "loss": 2.5678, "examples_seen": 372736000, "examples_per_sec": 12802, "hours": 7.146}
+{"step": 91500, "loss": 2.5688, "examples_seen": 374784000, "examples_per_sec": 12816, "hours": 7.191}
+{"step": 92000, "loss": 2.5667, "examples_seen": 376832000, "examples_per_sec": 12828, "hours": 7.235}
+{"step": 92500, "loss": 2.5657, "examples_seen": 378880000, "examples_per_sec": 12810, "hours": 7.279}
+{"step": 93000, "loss": 2.5639, "examples_seen": 380928000, "examples_per_sec": 12837, "hours": 7.324}
+{"step": 93500, "loss": 2.5608, "examples_seen": 382976000, "examples_per_sec": 12741, "hours": 7.368}
+{"step": 94000, "loss": 2.5609, "examples_seen": 385024000, "examples_per_sec": 12815, "hours": 7.413}
+{"step": 94500, "loss": 2.5599, "examples_seen": 387072000, "examples_per_sec": 12856, "hours": 7.457}
+{"step": 95000, "loss": 2.5587, "examples_seen": 389120000, "examples_per_sec": 12784, "hours": 7.501, "eval_loss": 2.518, "eval_wp_mae": 0.0301}
+{"step": 95500, "loss": 2.5562, "examples_seen": 391168000, "examples_per_sec": 12660, "hours": 7.546}
+{"step": 96000, "loss": 2.556, "examples_seen": 393216000, "examples_per_sec": 12849, "hours": 7.591}
+{"step": 96500, "loss": 2.5546, "examples_seen": 395264000, "examples_per_sec": 12810, "hours": 7.635}
+{"step": 97000, "loss": 2.5542, "examples_seen": 397312000, "examples_per_sec": 12801, "hours": 7.68}
+{"step": 97500, "loss": 2.5544, "examples_seen": 399360000, "examples_per_sec": 12797, "hours": 7.724}
+{"step": 98000, "loss": 2.5535, "examples_seen": 401408000, "examples_per_sec": 12816, "hours": 7.768}
+{"step": 98500, "loss": 2.5516, "examples_seen": 403456000, "examples_per_sec": 12755, "hours": 7.813}
+{"step": 99000, "loss": 2.5514, "examples_seen": 405504000, "examples_per_sec": 12714, "hours": 7.858}
+{"step": 99500, "loss": 2.5479, "examples_seen": 407552000, "examples_per_sec": 12767, "hours": 7.902}
+{"step": 100000, "loss": 2.5478, "examples_seen": 409600000, "examples_per_sec": 12764, "hours": 7.947, "eval_loss": 2.5238, "eval_wp_mae": 0.0304}
+{"step": 100500, "loss": 2.5467, "examples_seen": 411648000, "examples_per_sec": 12543, "hours": 7.992}
+{"step": 101000, "loss": 2.547, "examples_seen": 413696000, "examples_per_sec": 12802, "hours": 8.037}
+{"step": 101500, "loss": 2.5435, "examples_seen": 415744000, "examples_per_sec": 12903, "hours": 8.081}
+{"step": 102000, "loss": 2.4953, "examples_seen": 417792000, "examples_per_sec": 12798, "hours": 8.125}
+{"step": 102500, "loss": 2.5405, "examples_seen": 419840000, "examples_per_sec": 12761, "hours": 8.17}
+{"step": 103000, "loss": 2.5426, "examples_seen": 421888000, "examples_per_sec": 12813, "hours": 8.214}
+{"step": 103500, "loss": 2.5391, "examples_seen": 423936000, "examples_per_sec": 12771, "hours": 8.259}
+{"step": 104000, "loss": 2.5412, "examples_seen": 425984000, "examples_per_sec": 12774, "hours": 8.303}
+{"step": 104500, "loss": 2.5399, "examples_seen": 428032000, "examples_per_sec": 12755, "hours": 8.348}
+{"step": 105000, "loss": 2.5378, "examples_seen": 430080000, "examples_per_sec": 12780, "hours": 8.392, "eval_loss": 2.5094, "eval_wp_mae": 0.0298}
+{"step": 105500, "loss": 2.5395, "examples_seen": 432128000, "examples_per_sec": 12557, "hours": 8.438}
+{"step": 106000, "loss": 2.5373, "examples_seen": 434176000, "examples_per_sec": 12766, "hours": 8.482}
+{"step": 106500, "loss": 2.5356, "examples_seen": 436224000, "examples_per_sec": 12810, "hours": 8.527}
+{"step": 107000, "loss": 2.5349, "examples_seen": 438272000, "examples_per_sec": 12814, "hours": 8.571}
+{"step": 107500, "loss": 2.5297, "examples_seen": 440320000, "examples_per_sec": 12806, "hours": 8.615}
+{"step": 108000, "loss": 2.5254, "examples_seen": 442368000, "examples_per_sec": 12816, "hours": 8.66}
+{"step": 108500, "loss": 2.5257, "examples_seen": 444416000, "examples_per_sec": 12827, "hours": 8.704}
+{"step": 109000, "loss": 2.5285, "examples_seen": 446464000, "examples_per_sec": 12655, "hours": 8.749}
+{"step": 109500, "loss": 2.5301, "examples_seen": 448512000, "examples_per_sec": 12747, "hours": 8.794}
+{"step": 110000, "loss": 2.5261, "examples_seen": 450560000, "examples_per_sec": 12704, "hours": 8.839, "eval_loss": 2.4982, "eval_wp_mae": 0.0295}
+{"step": 110500, "loss": 2.5264, "examples_seen": 452608000, "examples_per_sec": 12574, "hours": 8.884}
+{"step": 111000, "loss": 2.5242, "examples_seen": 454656000, "examples_per_sec": 12845, "hours": 8.928}
+{"step": 111500, "loss": 2.5245, "examples_seen": 456704000, "examples_per_sec": 12884, "hours": 8.972}
+{"step": 112000, "loss": 2.5239, "examples_seen": 458752000, "examples_per_sec": 12858, "hours": 9.016}
+{"step": 112500, "loss": 2.523, "examples_seen": 460800000, "examples_per_sec": 12795, "hours": 9.061}
+{"step": 113000, "loss": 2.5236, "examples_seen": 462848000, "examples_per_sec": 12834, "hours": 9.105}
+{"step": 113500, "loss": 2.5143, "examples_seen": 464896000, "examples_per_sec": 12859, "hours": 9.149}
+{"step": 114000, "loss": 2.5138, "examples_seen": 466944000, "examples_per_sec": 12826, "hours": 9.194}
+{"step": 114500, "loss": 2.5132, "examples_seen": 468992000, "examples_per_sec": 12829, "hours": 9.238}
+{"step": 115000, "loss": 2.5115, "examples_seen": 471040000, "examples_per_sec": 12723, "hours": 9.283, "eval_loss": 2.4897, "eval_wp_mae": 0.029}
+{"step": 115500, "loss": 2.5125, "examples_seen": 473088000, "examples_per_sec": 12514, "hours": 9.328}
+{"step": 116000, "loss": 2.5117, "examples_seen": 475136000, "examples_per_sec": 12764, "hours": 9.373}
+{"step": 116500, "loss": 2.5118, "examples_seen": 477184000, "examples_per_sec": 12806, "hours": 9.417}
+{"step": 117000, "loss": 2.5162, "examples_seen": 479232000, "examples_per_sec": 12637, "hours": 9.462}
+{"step": 117500, "loss": 2.518, "examples_seen": 481280000, "examples_per_sec": 12777, "hours": 9.507}
+{"step": 118000, "loss": 2.5116, "examples_seen": 483328000, "examples_per_sec": 12727, "hours": 9.552}
+{"step": 118500, "loss": 2.5127, "examples_seen": 485376000, "examples_per_sec": 12733, "hours": 9.596}
+{"step": 119000, "loss": 2.5107, "examples_seen": 487424000, "examples_per_sec": 12762, "hours": 9.641}
+{"step": 119500, "loss": 2.5123, "examples_seen": 489472000, "examples_per_sec": 12712, "hours": 9.686}
+{"step": 120000, "loss": 2.5118, "examples_seen": 491520000, "examples_per_sec": 12669, "hours": 9.73, "eval_loss": 2.4861, "eval_wp_mae": 0.0289}
+{"step": 120500, "loss": 2.5116, "examples_seen": 493568000, "examples_per_sec": 12507, "hours": 9.776}
+{"step": 121000, "loss": 2.5096, "examples_seen": 495616000, "examples_per_sec": 12687, "hours": 9.821}
+{"step": 121500, "loss": 2.5089, "examples_seen": 497664000, "examples_per_sec": 12813, "hours": 9.865}
+{"step": 122000, "loss": 2.506, "examples_seen": 499712000, "examples_per_sec": 12795, "hours": 9.91}
+{"step": 122500, "loss": 2.5061, "examples_seen": 501760000, "examples_per_sec": 12817, "hours": 9.954}
+{"step": 123000, "loss": 2.5065, "examples_seen": 503808000, "examples_per_sec": 12819, "hours": 9.998}
+{"step": 123500, "loss": 2.5042, "examples_seen": 505856000, "examples_per_sec": 12742, "hours": 10.043}
+{"step": 124000, "loss": 2.5036, "examples_seen": 507904000, "examples_per_sec": 12854, "hours": 10.087}
+{"step": 124500, "loss": 2.5023, "examples_seen": 509952000, "examples_per_sec": 12847, "hours": 10.132}
+{"step": 125000, "loss": 2.5015, "examples_seen": 512000000, "examples_per_sec": 12802, "hours": 10.176, "eval_loss": 2.4756, "eval_wp_mae": 0.0285}
+{"step": 125500, "loss": 2.5002, "examples_seen": 514048000, "examples_per_sec": 12555, "hours": 10.221}
+{"step": 126000, "loss": 2.4979, "examples_seen": 516096000, "examples_per_sec": 12794, "hours": 10.266}
+{"step": 126500, "loss": 2.4996, "examples_seen": 518144000, "examples_per_sec": 12822, "hours": 10.31}
+{"step": 127000, "loss": 2.4997, "examples_seen": 520192000, "examples_per_sec": 12821, "hours": 10.355}
+{"step": 127500, "loss": 2.4989, "examples_seen": 522240000, "examples_per_sec": 12790, "hours": 10.399}
+{"step": 128000, "loss": 2.4981, "examples_seen": 524288000, "examples_per_sec": 12765, "hours": 10.444}
+{"step": 128500, "loss": 2.496, "examples_seen": 526336000, "examples_per_sec": 12760, "hours": 10.488}
+{"step": 129000, "loss": 2.497, "examples_seen": 528384000, "examples_per_sec": 12721, "hours": 10.533}
+{"step": 129500, "loss": 2.4968, "examples_seen": 530432000, "examples_per_sec": 12718, "hours": 10.578}
+{"step": 130000, "loss": 2.4936, "examples_seen": 532480000, "examples_per_sec": 12739, "hours": 10.622, "eval_loss": 2.4717, "eval_wp_mae": 0.0284}
+{"step": 130500, "loss": 2.4927, "examples_seen": 534528000, "examples_per_sec": 12557, "hours": 10.668}
+{"step": 131000, "loss": 2.4918, "examples_seen": 536576000, "examples_per_sec": 12720, "hours": 10.712}
+{"step": 131500, "loss": 2.4897, "examples_seen": 538624000, "examples_per_sec": 12728, "hours": 10.757}
+{"step": 132000, "loss": 2.4904, "examples_seen": 540672000, "examples_per_sec": 12723, "hours": 10.802}
+{"step": 132500, "loss": 2.4904, "examples_seen": 542720000, "examples_per_sec": 12790, "hours": 10.846}
+{"step": 133000, "loss": 2.4896, "examples_seen": 544768000, "examples_per_sec": 12740, "hours": 10.891}
+{"step": 133500, "loss": 2.4887, "examples_seen": 546816000, "examples_per_sec": 12736, "hours": 10.935}
+{"step": 134000, "loss": 2.4868, "examples_seen": 548864000, "examples_per_sec": 12746, "hours": 10.98}
+{"step": 134500, "loss": 2.4877, "examples_seen": 550912000, "examples_per_sec": 12736, "hours": 11.025}
+{"step": 135000, "loss": 2.487, "examples_seen": 552960000, "examples_per_sec": 12762, "hours": 11.069, "eval_loss": 2.4612, "eval_wp_mae": 0.0279}
+{"step": 135500, "loss": 2.4864, "examples_seen": 555008000, "examples_per_sec": 12579, "hours": 11.115}
+{"step": 136000, "loss": 2.4839, "examples_seen": 557056000, "examples_per_sec": 12734, "hours": 11.159}
+{"step": 136500, "loss": 2.4842, "examples_seen": 559104000, "examples_per_sec": 12743, "hours": 11.204}
+{"step": 137000, "loss": 2.4812, "examples_seen": 561152000, "examples_per_sec": 12728, "hours": 11.249}
+{"step": 137500, "loss": 2.4833, "examples_seen": 563200000, "examples_per_sec": 12760, "hours": 11.293}
+{"step": 138000, "loss": 2.4826, "examples_seen": 565248000, "examples_per_sec": 12797, "hours": 11.338}
+{"step": 138500, "loss": 2.4805, "examples_seen": 567296000, "examples_per_sec": 12797, "hours": 11.382}
+{"step": 139000, "loss": 2.4781, "examples_seen": 569344000, "examples_per_sec": 12751, "hours": 11.427}
+{"step": 139500, "loss": 2.4793, "examples_seen": 571392000, "examples_per_sec": 12739, "hours": 11.471}
+{"step": 140000, "loss": 2.4779, "examples_seen": 573440000, "examples_per_sec": 12764, "hours": 11.516, "eval_loss": 2.4562, "eval_wp_mae": 0.0277}
+{"step": 140500, "loss": 2.4762, "examples_seen": 575488000, "examples_per_sec": 12542, "hours": 11.561}
+{"step": 141000, "loss": 2.4754, "examples_seen": 577536000, "examples_per_sec": 12819, "hours": 11.606}
+{"step": 141500, "loss": 2.4749, "examples_seen": 579584000, "examples_per_sec": 12679, "hours": 11.651}
+{"step": 142000, "loss": 2.4724, "examples_seen": 581632000, "examples_per_sec": 12796, "hours": 11.695}
+{"step": 142500, "loss": 2.4721, "examples_seen": 583680000, "examples_per_sec": 12665, "hours": 11.74}
+{"step": 143000, "loss": 2.4709, "examples_seen": 585728000, "examples_per_sec": 12791, "hours": 11.784}
+{"step": 143500, "loss": 2.4714, "examples_seen": 587776000, "examples_per_sec": 12791, "hours": 11.829}
+{"step": 144000, "loss": 2.4723, "examples_seen": 589824000, "examples_per_sec": 12723, "hours": 11.874}
+{"step": 144500, "loss": 2.4713, "examples_seen": 591872000, "examples_per_sec": 12788, "hours": 11.918}
+{"step": 145000, "loss": 2.4718, "examples_seen": 593920000, "examples_per_sec": 12797, "hours": 11.962, "eval_loss": 2.4481, "eval_wp_mae": 0.0274}
+{"step": 145500, "loss": 2.4701, "examples_seen": 595968000, "examples_per_sec": 12587, "hours": 12.008}
+{"step": 146000, "loss": 2.4694, "examples_seen": 598016000, "examples_per_sec": 12796, "hours": 12.052}
+{"step": 146500, "loss": 2.4671, "examples_seen": 600064000, "examples_per_sec": 12765, "hours": 12.097}
+{"step": 147000, "loss": 2.4669, "examples_seen": 602112000, "examples_per_sec": 12739, "hours": 12.141}
+{"step": 147500, "loss": 2.4674, "examples_seen": 604160000, "examples_per_sec": 12767, "hours": 12.186}
+{"step": 148000, "loss": 2.4667, "examples_seen": 606208000, "examples_per_sec": 12788, "hours": 12.23}
+{"step": 148500, "loss": 2.4654, "examples_seen": 608256000, "examples_per_sec": 12776, "hours": 12.275}
+{"step": 149000, "loss": 2.466, "examples_seen": 610304000, "examples_per_sec": 12793, "hours": 12.319}
+{"step": 149500, "loss": 2.4647, "examples_seen": 612352000, "examples_per_sec": 12732, "hours": 12.364}
+{"step": 150000, "loss": 2.464, "examples_seen": 614400000, "examples_per_sec": 12719, "hours": 12.409, "eval_loss": 2.4418, "eval_wp_mae": 0.0272}
+{"step": 150500, "loss": 2.4637, "examples_seen": 616448000, "examples_per_sec": 12531, "hours": 12.454}
+{"step": 151000, "loss": 2.4622, "examples_seen": 618496000, "examples_per_sec": 12718, "hours": 12.499}
+{"step": 151500, "loss": 2.4614, "examples_seen": 620544000, "examples_per_sec": 12763, "hours": 12.543}
+{"step": 152000, "loss": 2.4609, "examples_seen": 622592000, "examples_per_sec": 12726, "hours": 12.588}
+{"step": 152500, "loss": 2.4606, "examples_seen": 624640000, "examples_per_sec": 12736, "hours": 12.633}
+{"step": 153000, "loss": 2.4583, "examples_seen": 626688000, "examples_per_sec": 12731, "hours": 12.678}
+{"step": 153500, "loss": 2.4581, "examples_seen": 628736000, "examples_per_sec": 12781, "hours": 12.722}
+{"step": 154000, "loss": 2.4592, "examples_seen": 630784000, "examples_per_sec": 12707, "hours": 12.767}
+{"step": 154500, "loss": 2.4584, "examples_seen": 632832000, "examples_per_sec": 12765, "hours": 12.811}
+{"step": 155000, "loss": 2.4583, "examples_seen": 634880000, "examples_per_sec": 12698, "hours": 12.856, "eval_loss": 2.4276, "eval_wp_mae": 0.0268}
+{"step": 155500, "loss": 2.4565, "examples_seen": 636928000, "examples_per_sec": 12620, "hours": 12.901}
+{"step": 156000, "loss": 2.4553, "examples_seen": 638976000, "examples_per_sec": 12766, "hours": 12.946}
+{"step": 156500, "loss": 2.456, "examples_seen": 641024000, "examples_per_sec": 12825, "hours": 12.99}
+{"step": 157000, "loss": 2.4543, "examples_seen": 643072000, "examples_per_sec": 12789, "hours": 13.035}
+{"step": 157500, "loss": 2.4536, "examples_seen": 645120000, "examples_per_sec": 12717, "hours": 13.079}
+{"step": 158000, "loss": 2.4513, "examples_seen": 647168000, "examples_per_sec": 12822, "hours": 13.124}
+{"step": 158500, "loss": 2.4511, "examples_seen": 649216000, "examples_per_sec": 12920, "hours": 13.168}
+{"step": 159000, "loss": 2.4524, "examples_seen": 651264000, "examples_per_sec": 12848, "hours": 13.212}
+{"step": 159500, "loss": 2.4539, "examples_seen": 653312000, "examples_per_sec": 12809, "hours": 13.256}
+{"step": 160000, "loss": 2.451, "examples_seen": 655360000, "examples_per_sec": 12823, "hours": 13.301, "eval_loss": 2.4238, "eval_wp_mae": 0.0267}
+{"step": 160500, "loss": 2.45, "examples_seen": 657408000, "examples_per_sec": 12645, "hours": 13.346}
+{"step": 161000, "loss": 2.4492, "examples_seen": 659456000, "examples_per_sec": 12870, "hours": 13.39}
+{"step": 161500, "loss": 2.4505, "examples_seen": 661504000, "examples_per_sec": 12850, "hours": 13.434}
+{"step": 162000, "loss": 2.4506, "examples_seen": 663552000, "examples_per_sec": 12799, "hours": 13.479}
+{"step": 162500, "loss": 2.4473, "examples_seen": 665600000, "examples_per_sec": 12854, "hours": 13.523}
+{"step": 163000, "loss": 2.4492, "examples_seen": 667648000, "examples_per_sec": 12825, "hours": 13.567}
+{"step": 163500, "loss": 2.4463, "examples_seen": 669696000, "examples_per_sec": 12703, "hours": 13.612}
+{"step": 164000, "loss": 2.4458, "examples_seen": 671744000, "examples_per_sec": 12849, "hours": 13.656}
+{"step": 164500, "loss": 2.4468, "examples_seen": 673792000, "examples_per_sec": 12850, "hours": 13.701}
+{"step": 165000, "loss": 2.4442, "examples_seen": 675840000, "examples_per_sec": 12795, "hours": 13.745, "eval_loss": 2.4239, "eval_wp_mae": 0.0266}
+{"step": 165500, "loss": 2.4446, "examples_seen": 677888000, "examples_per_sec": 12590, "hours": 13.79}
+{"step": 166000, "loss": 2.4428, "examples_seen": 679936000, "examples_per_sec": 12815, "hours": 13.835}
+{"step": 166500, "loss": 2.4443, "examples_seen": 681984000, "examples_per_sec": 12838, "hours": 13.879}
+{"step": 167000, "loss": 2.4442, "examples_seen": 684032000, "examples_per_sec": 12812, "hours": 13.923}
+{"step": 167500, "loss": 2.4443, "examples_seen": 686080000, "examples_per_sec": 12822, "hours": 13.968}
+{"step": 168000, "loss": 2.4421, "examples_seen": 688128000, "examples_per_sec": 12859, "hours": 14.012}
+{"step": 168500, "loss": 2.4418, "examples_seen": 690176000, "examples_per_sec": 12749, "hours": 14.057}
+{"step": 169000, "loss": 2.4412, "examples_seen": 692224000, "examples_per_sec": 12806, "hours": 14.101}
+{"step": 169500, "loss": 2.441, "examples_seen": 694272000, "examples_per_sec": 12813, "hours": 14.145}
+{"step": 170000, "loss": 2.4394, "examples_seen": 696320000, "examples_per_sec": 12823, "hours": 14.19, "eval_loss": 2.419, "eval_wp_mae": 0.0265}
+{"step": 170500, "loss": 2.4394, "examples_seen": 698368000, "examples_per_sec": 12641, "hours": 14.235}
+{"step": 171000, "loss": 2.4407, "examples_seen": 700416000, "examples_per_sec": 12780, "hours": 14.279}
+{"step": 171500, "loss": 2.4395, "examples_seen": 702464000, "examples_per_sec": 12819, "hours": 14.324}
+{"step": 172000, "loss": 2.4392, "examples_seen": 704512000, "examples_per_sec": 12825, "hours": 14.368}
+{"step": 172500, "loss": 2.4374, "examples_seen": 706560000, "examples_per_sec": 12771, "hours": 14.413}
+{"step": 173000, "loss": 2.4359, "examples_seen": 708608000, "examples_per_sec": 12744, "hours": 14.457}
+{"step": 173500, "loss": 2.4374, "examples_seen": 710656000, "examples_per_sec": 12796, "hours": 14.502}
+{"step": 174000, "loss": 2.4371, "examples_seen": 712704000, "examples_per_sec": 12802, "hours": 14.546}
+{"step": 174500, "loss": 2.4352, "examples_seen": 714752000, "examples_per_sec": 12814, "hours": 14.591}
+{"step": 175000, "loss": 2.4354, "examples_seen": 716800000, "examples_per_sec": 12838, "hours": 14.635, "eval_loss": 2.4094, "eval_wp_mae": 0.0262}
+{"step": 175500, "loss": 2.435, "examples_seen": 718848000, "examples_per_sec": 12669, "hours": 14.68}
+{"step": 176000, "loss": 2.435, "examples_seen": 720896000, "examples_per_sec": 12871, "hours": 14.724}
+{"step": 176500, "loss": 2.4346, "examples_seen": 722944000, "examples_per_sec": 12864, "hours": 14.768}
+{"step": 177000, "loss": 2.4344, "examples_seen": 724992000, "examples_per_sec": 12841, "hours": 14.812}
+{"step": 177500, "loss": 2.4348, "examples_seen": 727040000, "examples_per_sec": 12853, "hours": 14.857}
+{"step": 178000, "loss": 2.4316, "examples_seen": 729088000, "examples_per_sec": 12827, "hours": 14.901}
+{"step": 178500, "loss": 2.4312, "examples_seen": 731136000, "examples_per_sec": 12806, "hours": 14.946}
+{"step": 179000, "loss": 2.4318, "examples_seen": 733184000, "examples_per_sec": 12763, "hours": 14.99}
+{"step": 179500, "loss": 2.4316, "examples_seen": 735232000, "examples_per_sec": 12800, "hours": 15.035}
+{"step": 180000, "loss": 2.4323, "examples_seen": 737280000, "examples_per_sec": 12833, "hours": 15.079, "eval_loss": 2.4052, "eval_wp_mae": 0.0259}
+{"step": 180500, "loss": 2.4289, "examples_seen": 739328000, "examples_per_sec": 12662, "hours": 15.124}
+{"step": 181000, "loss": 2.4294, "examples_seen": 741376000, "examples_per_sec": 12860, "hours": 15.168}
+{"step": 181500, "loss": 2.4291, "examples_seen": 743424000, "examples_per_sec": 12849, "hours": 15.212}
+{"step": 182000, "loss": 2.427, "examples_seen": 745472000, "examples_per_sec": 12857, "hours": 15.257}
+{"step": 182500, "loss": 2.4276, "examples_seen": 747520000, "examples_per_sec": 12821, "hours": 15.301}
+{"step": 183000, "loss": 2.4271, "examples_seen": 749568000, "examples_per_sec": 12813, "hours": 15.345}
+{"step": 183500, "loss": 2.4273, "examples_seen": 751616000, "examples_per_sec": 12847, "hours": 15.39}
+{"step": 184000, "loss": 2.4279, "examples_seen": 753664000, "examples_per_sec": 12843, "hours": 15.434}
+{"step": 184500, "loss": 2.4257, "examples_seen": 755712000, "examples_per_sec": 12837, "hours": 15.478}
+{"step": 185000, "loss": 2.4284, "examples_seen": 757760000, "examples_per_sec": 12835, "hours": 15.523, "eval_loss": 2.4007, "eval_wp_mae": 0.0259}
+{"step": 185500, "loss": 2.4255, "examples_seen": 759808000, "examples_per_sec": 12640, "hours": 15.568}
+{"step": 186000, "loss": 2.4261, "examples_seen": 761856000, "examples_per_sec": 12837, "hours": 15.612}
+{"step": 186500, "loss": 2.4266, "examples_seen": 763904000, "examples_per_sec": 12855, "hours": 15.656}
+{"step": 187000, "loss": 2.4252, "examples_seen": 765952000, "examples_per_sec": 12861, "hours": 15.7}
+{"step": 187500, "loss": 2.4247, "examples_seen": 768000000, "examples_per_sec": 12899, "hours": 15.744}
+{"step": 188000, "loss": 2.4238, "examples_seen": 770048000, "examples_per_sec": 12864, "hours": 15.789}
+{"step": 188500, "loss": 2.4235, "examples_seen": 772096000, "examples_per_sec": 12812, "hours": 15.833}
+{"step": 189000, "loss": 2.4237, "examples_seen": 774144000, "examples_per_sec": 12778, "hours": 15.878}
+{"step": 189500, "loss": 2.4223, "examples_seen": 776192000, "examples_per_sec": 12816, "hours": 15.922}
+{"step": 190000, "loss": 2.4218, "examples_seen": 778240000, "examples_per_sec": 12821, "hours": 15.966, "eval_loss": 2.3971, "eval_wp_mae": 0.0256}
+{"step": 190500, "loss": 2.4238, "examples_seen": 780288000, "examples_per_sec": 12536, "hours": 16.012}
+{"step": 191000, "loss": 2.4216, "examples_seen": 782336000, "examples_per_sec": 12815, "hours": 16.056}
+{"step": 191500, "loss": 2.421, "examples_seen": 784384000, "examples_per_sec": 12802, "hours": 16.101}
+{"step": 192000, "loss": 2.4204, "examples_seen": 786432000, "examples_per_sec": 12821, "hours": 16.145}
+{"step": 192500, "loss": 2.4208, "examples_seen": 788480000, "examples_per_sec": 12832, "hours": 16.189}
+{"step": 193000, "loss": 2.4182, "examples_seen": 790528000, "examples_per_sec": 12848, "hours": 16.233}
+{"step": 193500, "loss": 2.4153, "examples_seen": 792576000, "examples_per_sec": 12847, "hours": 16.278}
+{"step": 194000, "loss": 2.4153, "examples_seen": 794624000, "examples_per_sec": 12849, "hours": 16.322}
+{"step": 194500, "loss": 2.4187, "examples_seen": 796672000, "examples_per_sec": 12817, "hours": 16.366}
+{"step": 195000, "loss": 2.4184, "examples_seen": 798720000, "examples_per_sec": 12848, "hours": 16.411, "eval_loss": 2.3956, "eval_wp_mae": 0.0258}
+{"step": 195500, "loss": 2.4178, "examples_seen": 800768000, "examples_per_sec": 12644, "hours": 16.456}
+{"step": 196000, "loss": 2.4165, "examples_seen": 802816000, "examples_per_sec": 12837, "hours": 16.5}
+{"step": 196500, "loss": 2.4164, "examples_seen": 804864000, "examples_per_sec": 12808, "hours": 16.544}
+{"step": 197000, "loss": 2.4158, "examples_seen": 806912000, "examples_per_sec": 12804, "hours": 16.589}
+{"step": 197500, "loss": 2.4155, "examples_seen": 808960000, "examples_per_sec": 12862, "hours": 16.633}
+{"step": 198000, "loss": 2.415, "examples_seen": 811008000, "examples_per_sec": 12807, "hours": 16.678}
+{"step": 198500, "loss": 2.4131, "examples_seen": 813056000, "examples_per_sec": 12850, "hours": 16.722}
+{"step": 199000, "loss": 2.4129, "examples_seen": 815104000, "examples_per_sec": 12781, "hours": 16.766}
+{"step": 199500, "loss": 2.4125, "examples_seen": 817152000, "examples_per_sec": 12841, "hours": 16.811}
+{"step": 200000, "loss": 2.4138, "examples_seen": 819200000, "examples_per_sec": 12848, "hours": 16.855, "eval_loss": 2.3871, "eval_wp_mae": 0.0255}
+{"step": 200500, "loss": 2.412, "examples_seen": 821248000, "examples_per_sec": 12686, "hours": 16.9}
+{"step": 201000, "loss": 2.4116, "examples_seen": 823296000, "examples_per_sec": 12840, "hours": 16.944}
+{"step": 201500, "loss": 2.4118, "examples_seen": 825344000, "examples_per_sec": 12751, "hours": 16.989}
+{"step": 202000, "loss": 2.4098, "examples_seen": 827392000, "examples_per_sec": 12842, "hours": 17.033}
+{"step": 202500, "loss": 2.4112, "examples_seen": 829440000, "examples_per_sec": 12861, "hours": 17.077}
+{"step": 203000, "loss": 2.4116, "examples_seen": 831488000, "examples_per_sec": 12877, "hours": 17.121}
+{"step": 203500, "loss": 2.4108, "examples_seen": 833536000, "examples_per_sec": 12839, "hours": 17.166}
+{"step": 204000, "loss": 2.4098, "examples_seen": 835584000, "examples_per_sec": 12756, "hours": 17.21}
+{"step": 204500, "loss": 2.4106, "examples_seen": 837632000, "examples_per_sec": 12752, "hours": 17.255}
+{"step": 205000, "loss": 2.4112, "examples_seen": 839680000, "examples_per_sec": 12792, "hours": 17.299, "eval_loss": 2.3993, "eval_wp_mae": 0.0258}
+{"step": 205500, "loss": 2.4107, "examples_seen": 841728000, "examples_per_sec": 12616, "hours": 17.344}
+{"step": 206000, "loss": 2.4103, "examples_seen": 843776000, "examples_per_sec": 12781, "hours": 17.389}
+{"step": 206500, "loss": 2.4105, "examples_seen": 845824000, "examples_per_sec": 12924, "hours": 17.433}
+{"step": 207000, "loss": 2.4092, "examples_seen": 847872000, "examples_per_sec": 13060, "hours": 17.476}
+{"step": 207500, "loss": 2.4085, "examples_seen": 849920000, "examples_per_sec": 13028, "hours": 17.52}
+{"step": 208000, "loss": 2.4094, "examples_seen": 851968000, "examples_per_sec": 13090, "hours": 17.564}
+{"step": 208500, "loss": 2.4074, "examples_seen": 854016000, "examples_per_sec": 13045, "hours": 17.607}
+{"step": 209000, "loss": 2.4044, "examples_seen": 856064000, "examples_per_sec": 13035, "hours": 17.651}
+{"step": 209500, "loss": 2.4076, "examples_seen": 858112000, "examples_per_sec": 13093, "hours": 17.694}
+{"step": 210000, "loss": 2.4051, "examples_seen": 860160000, "examples_per_sec": 13104, "hours": 17.738, "eval_loss": 2.381, "eval_wp_mae": 0.0253}
+{"step": 210500, "loss": 2.4051, "examples_seen": 862208000, "examples_per_sec": 12924, "hours": 17.782}
+{"step": 211000, "loss": 2.4064, "examples_seen": 864256000, "examples_per_sec": 13119, "hours": 17.825}
+{"step": 211500, "loss": 2.4054, "examples_seen": 866304000, "examples_per_sec": 13034, "hours": 17.869}
+{"step": 212000, "loss": 2.4051, "examples_seen": 868352000, "examples_per_sec": 13051, "hours": 17.912}
+{"step": 212500, "loss": 2.4041, "examples_seen": 870400000, "examples_per_sec": 13082, "hours": 17.956}
+{"step": 213000, "loss": 2.4033, "examples_seen": 872448000, "examples_per_sec": 13008, "hours": 18.0}
+{"step": 213500, "loss": 2.4043, "examples_seen": 874496000, "examples_per_sec": 13016, "hours": 18.043}
+{"step": 214000, "loss": 2.402, "examples_seen": 876544000, "examples_per_sec": 13102, "hours": 18.087}
+{"step": 214500, "loss": 2.4021, "examples_seen": 878592000, "examples_per_sec": 13132, "hours": 18.13}
+{"step": 215000, "loss": 2.4024, "examples_seen": 880640000, "examples_per_sec": 12979, "hours": 18.174, "eval_loss": 2.3744, "eval_wp_mae": 0.025}
+{"step": 215500, "loss": 2.4006, "examples_seen": 882688000, "examples_per_sec": 12796, "hours": 18.218}
+{"step": 216000, "loss": 2.3999, "examples_seen": 884736000, "examples_per_sec": 13054, "hours": 18.262}
+{"step": 216500, "loss": 2.3995, "examples_seen": 886784000, "examples_per_sec": 13054, "hours": 18.305}
+{"step": 217000, "loss": 2.4008, "examples_seen": 888832000, "examples_per_sec": 13035, "hours": 18.349}
+{"step": 217500, "loss": 2.3996, "examples_seen": 890880000, "examples_per_sec": 13058, "hours": 18.393}
+{"step": 218000, "loss": 2.4011, "examples_seen": 892928000, "examples_per_sec": 13134, "hours": 18.436}
+{"step": 218500, "loss": 2.4015, "examples_seen": 894976000, "examples_per_sec": 12973, "hours": 18.48}
+{"step": 219000, "loss": 2.3977, "examples_seen": 897024000, "examples_per_sec": 12993, "hours": 18.524}
+{"step": 219500, "loss": 2.3965, "examples_seen": 899072000, "examples_per_sec": 12843, "hours": 18.568}
+{"step": 220000, "loss": 2.3964, "examples_seen": 901120000, "examples_per_sec": 12979, "hours": 18.612, "eval_loss": 2.3729, "eval_wp_mae": 0.0252}
+{"step": 220500, "loss": 2.3967, "examples_seen": 903168000, "examples_per_sec": 12814, "hours": 18.656}
+{"step": 221000, "loss": 2.3943, "examples_seen": 905216000, "examples_per_sec": 13015, "hours": 18.7}
+{"step": 221500, "loss": 2.3956, "examples_seen": 907264000, "examples_per_sec": 13027, "hours": 18.743}
+{"step": 222000, "loss": 2.3944, "examples_seen": 909312000, "examples_per_sec": 13020, "hours": 18.787}
+{"step": 222500, "loss": 2.3945, "examples_seen": 911360000, "examples_per_sec": 13022, "hours": 18.831}
+{"step": 223000, "loss": 2.3946, "examples_seen": 913408000, "examples_per_sec": 13020, "hours": 18.875}
+{"step": 223500, "loss": 2.3957, "examples_seen": 915456000, "examples_per_sec": 13081, "hours": 18.918}
+{"step": 224000, "loss": 2.3956, "examples_seen": 917504000, "examples_per_sec": 13090, "hours": 18.961}
+{"step": 224500, "loss": 2.3969, "examples_seen": 919552000, "examples_per_sec": 13115, "hours": 19.005}
+{"step": 225000, "loss": 2.3985, "examples_seen": 921600000, "examples_per_sec": 13083, "hours": 19.048, "eval_loss": 2.3697, "eval_wp_mae": 0.025}
+{"step": 225500, "loss": 2.3982, "examples_seen": 923648000, "examples_per_sec": 12822, "hours": 19.093}
+{"step": 226000, "loss": 2.3962, "examples_seen": 925696000, "examples_per_sec": 13010, "hours": 19.136}
+{"step": 226500, "loss": 2.3967, "examples_seen": 927744000, "examples_per_sec": 13040, "hours": 19.18}
+{"step": 227000, "loss": 2.3959, "examples_seen": 929792000, "examples_per_sec": 13013, "hours": 19.224}
+{"step": 227500, "loss": 2.3957, "examples_seen": 931840000, "examples_per_sec": 12983, "hours": 19.268}
+{"step": 228000, "loss": 2.3935, "examples_seen": 933888000, "examples_per_sec": 13019, "hours": 19.311}
+{"step": 228500, "loss": 2.3926, "examples_seen": 935936000, "examples_per_sec": 12989, "hours": 19.355}
+{"step": 229000, "loss": 2.3925, "examples_seen": 937984000, "examples_per_sec": 13063, "hours": 19.399}
+{"step": 229500, "loss": 2.39, "examples_seen": 940032000, "examples_per_sec": 13032, "hours": 19.442}
+{"step": 230000, "loss": 2.3911, "examples_seen": 942080000, "examples_per_sec": 13066, "hours": 19.486, "eval_loss": 2.3738, "eval_wp_mae": 0.0251}
+{"step": 230500, "loss": 2.392, "examples_seen": 944128000, "examples_per_sec": 12885, "hours": 19.53}
+{"step": 231000, "loss": 2.3916, "examples_seen": 946176000, "examples_per_sec": 13040, "hours": 19.574}
+{"step": 231500, "loss": 2.3914, "examples_seen": 948224000, "examples_per_sec": 13038, "hours": 19.617}
+{"step": 232000, "loss": 2.3931, "examples_seen": 950272000, "examples_per_sec": 12989, "hours": 19.661}
+{"step": 232500, "loss": 2.3922, "examples_seen": 952320000, "examples_per_sec": 13026, "hours": 19.705}
+{"step": 233000, "loss": 2.39, "examples_seen": 954368000, "examples_per_sec": 13052, "hours": 19.748}
+{"step": 233500, "loss": 2.3902, "examples_seen": 956416000, "examples_per_sec": 12971, "hours": 19.792}
+{"step": 234000, "loss": 2.3899, "examples_seen": 958464000, "examples_per_sec": 13019, "hours": 19.836}
+{"step": 234500, "loss": 2.3882, "examples_seen": 960512000, "examples_per_sec": 13024, "hours": 19.88}
+{"step": 235000, "loss": 2.3894, "examples_seen": 962560000, "examples_per_sec": 13027, "hours": 19.923, "eval_loss": 2.3669, "eval_wp_mae": 0.0248}
+{"step": 235500, "loss": 2.3913, "examples_seen": 964608000, "examples_per_sec": 12842, "hours": 19.967}
+{"step": 236000, "loss": 2.3893, "examples_seen": 966656000, "examples_per_sec": 13161, "hours": 20.011}
+{"step": 236500, "loss": 2.3902, "examples_seen": 968704000, "examples_per_sec": 13049, "hours": 20.054}
+{"step": 237000, "loss": 2.3891, "examples_seen": 970752000, "examples_per_sec": 12998, "hours": 20.098}
+{"step": 237500, "loss": 2.3916, "examples_seen": 972800000, "examples_per_sec": 13039, "hours": 20.142}
+{"step": 238000, "loss": 2.3898, "examples_seen": 974848000, "examples_per_sec": 13124, "hours": 20.185}
+{"step": 238500, "loss": 2.3899, "examples_seen": 976896000, "examples_per_sec": 13038, "hours": 20.229}
+{"step": 239000, "loss": 2.3903, "examples_seen": 978944000, "examples_per_sec": 13053, "hours": 20.272}
+{"step": 239500, "loss": 2.3894, "examples_seen": 980992000, "examples_per_sec": 13009, "hours": 20.316}
+{"step": 240000, "loss": 2.3912, "examples_seen": 983040000, "examples_per_sec": 13023, "hours": 20.36, "eval_loss": 2.3631, "eval_wp_mae": 0.0247}
+{"step": 240500, "loss": 2.391, "examples_seen": 985088000, "examples_per_sec": 12832, "hours": 20.404}
+{"step": 241000, "loss": 2.389, "examples_seen": 987136000, "examples_per_sec": 13022, "hours": 20.448}
+{"step": 241500, "loss": 2.3882, "examples_seen": 989184000, "examples_per_sec": 13053, "hours": 20.491}
+{"step": 242000, "loss": 2.388, "examples_seen": 991232000, "examples_per_sec": 13029, "hours": 20.535}
+{"step": 242500, "loss": 2.3878, "examples_seen": 993280000, "examples_per_sec": 13004, "hours": 20.579}
+{"step": 243000, "loss": 2.3872, "examples_seen": 995328000, "examples_per_sec": 13059, "hours": 20.622}
+{"step": 243500, "loss": 2.3861, "examples_seen": 997376000, "examples_per_sec": 13001, "hours": 20.666}
+{"step": 244000, "loss": 2.3859, "examples_seen": 999424000, "examples_per_sec": 12988, "hours": 20.71}
+{"step": 244500, "loss": 2.3851, "examples_seen": 1001472000, "examples_per_sec": 12980, "hours": 20.754}
+{"step": 245000, "loss": 2.3875, "examples_seen": 1003520000, "examples_per_sec": 12998, "hours": 20.797, "eval_loss": 2.3666, "eval_wp_mae": 0.0248}
+{"step": 245500, "loss": 2.3879, "examples_seen": 1005568000, "examples_per_sec": 12892, "hours": 20.842}
+{"step": 246000, "loss": 2.385, "examples_seen": 1007616000, "examples_per_sec": 13005, "hours": 20.885}
+{"step": 246500, "loss": 2.3852, "examples_seen": 1009664000, "examples_per_sec": 13029, "hours": 20.929}
+{"step": 247000, "loss": 2.3852, "examples_seen": 1011712000, "examples_per_sec": 13080, "hours": 20.972}
+{"step": 247500, "loss": 2.3861, "examples_seen": 1013760000, "examples_per_sec": 13103, "hours": 21.016}
+{"step": 248000, "loss": 2.3854, "examples_seen": 1015808000, "examples_per_sec": 13084, "hours": 21.059}
+{"step": 248500, "loss": 2.3845, "examples_seen": 1017856000, "examples_per_sec": 13023, "hours": 21.103}
+{"step": 249000, "loss": 2.385, "examples_seen": 1019904000, "examples_per_sec": 13040, "hours": 21.147}
+{"step": 249500, "loss": 2.3846, "examples_seen": 1021952000, "examples_per_sec": 13018, "hours": 21.19}
+{"step": 250000, "loss": 2.3845, "examples_seen": 1024000000, "examples_per_sec": 13032, "hours": 21.234, "eval_loss": 2.359, "eval_wp_mae": 0.0247}
+{"step": 250500, "loss": 2.3851, "examples_seen": 1026048000, "examples_per_sec": 12813, "hours": 21.278}
+{"step": 251000, "loss": 2.3826, "examples_seen": 1028096000, "examples_per_sec": 13023, "hours": 21.322}
+{"step": 251500, "loss": 2.3828, "examples_seen": 1030144000, "examples_per_sec": 13086, "hours": 21.365}
+{"step": 252000, "loss": 2.3834, "examples_seen": 1032192000, "examples_per_sec": 13055, "hours": 21.409}
+{"step": 252500, "loss": 2.3836, "examples_seen": 1034240000, "examples_per_sec": 13107, "hours": 21.452}
+{"step": 253000, "loss": 2.3832, "examples_seen": 1036288000, "examples_per_sec": 13167, "hours": 21.496}
+{"step": 253500, "loss": 2.3816, "examples_seen": 1038336000, "examples_per_sec": 13038, "hours": 21.539}
+{"step": 254000, "loss": 2.3827, "examples_seen": 1040384000, "examples_per_sec": 13012, "hours": 21.583}
+{"step": 254500, "loss": 2.3827, "examples_seen": 1042432000, "examples_per_sec": 13062, "hours": 21.627}
+{"step": 255000, "loss": 2.3839, "examples_seen": 1044480000, "examples_per_sec": 13028, "hours": 21.67, "eval_loss": 2.358, "eval_wp_mae": 0.0246}
+{"step": 255500, "loss": 2.3821, "examples_seen": 1046528000, "examples_per_sec": 12868, "hours": 21.714}
+{"step": 256000, "loss": 2.3822, "examples_seen": 1048576000, "examples_per_sec": 13006, "hours": 21.758}
+{"step": 256500, "loss": 2.3807, "examples_seen": 1050624000, "examples_per_sec": 13031, "hours": 21.802}
+{"step": 257000, "loss": 2.381, "examples_seen": 1052672000, "examples_per_sec": 13039, "hours": 21.845}
+{"step": 257500, "loss": 2.3806, "examples_seen": 1054720000, "examples_per_sec": 13067, "hours": 21.889}
+{"step": 258000, "loss": 2.3799, "examples_seen": 1056768000, "examples_per_sec": 13014, "hours": 21.933}
+{"step": 258500, "loss": 2.3796, "examples_seen": 1058816000, "examples_per_sec": 13015, "hours": 21.976}
+{"step": 259000, "loss": 2.3793, "examples_seen": 1060864000, "examples_per_sec": 13042, "hours": 22.02}
+{"step": 259500, "loss": 2.3789, "examples_seen": 1062912000, "examples_per_sec": 13103, "hours": 22.063}
+{"step": 260000, "loss": 2.377, "examples_seen": 1064960000, "examples_per_sec": 13104, "hours": 22.107, "eval_loss": 2.3558, "eval_wp_mae": 0.0244}
+{"step": 260500, "loss": 2.3799, "examples_seen": 1067008000, "examples_per_sec": 12906, "hours": 22.151}
+{"step": 261000, "loss": 2.3814, "examples_seen": 1069056000, "examples_per_sec": 13078, "hours": 22.194}
+{"step": 261500, "loss": 2.3801, "examples_seen": 1071104000, "examples_per_sec": 13064, "hours": 22.238}
+{"step": 262000, "loss": 2.3784, "examples_seen": 1073152000, "examples_per_sec": 13040, "hours": 22.282}
+{"step": 262500, "loss": 2.3776, "examples_seen": 1075200000, "examples_per_sec": 13051, "hours": 22.325}
+{"step": 263000, "loss": 2.3778, "examples_seen": 1077248000, "examples_per_sec": 13076, "hours": 22.369}
+{"step": 263500, "loss": 2.3786, "examples_seen": 1079296000, "examples_per_sec": 13069, "hours": 22.412}
+{"step": 264000, "loss": 2.3773, "examples_seen": 1081344000, "examples_per_sec": 13164, "hours": 22.455}
+{"step": 264500, "loss": 2.3778, "examples_seen": 1083392000, "examples_per_sec": 13097, "hours": 22.499}
+{"step": 265000, "loss": 2.3761, "examples_seen": 1085440000, "examples_per_sec": 13113, "hours": 22.542, "eval_loss": 2.3558, "eval_wp_mae": 0.0246}
+{"step": 265500, "loss": 2.3759, "examples_seen": 1087488000, "examples_per_sec": 12811, "hours": 22.587}
+{"step": 266000, "loss": 2.3767, "examples_seen": 1089536000, "examples_per_sec": 13114, "hours": 22.63}
+{"step": 266500, "loss": 2.3776, "examples_seen": 1091584000, "examples_per_sec": 13045, "hours": 22.674}
+{"step": 267000, "loss": 2.3768, "examples_seen": 1093632000, "examples_per_sec": 13062, "hours": 22.717}
+{"step": 267500, "loss": 2.3767, "examples_seen": 1095680000, "examples_per_sec": 13024, "hours": 22.761}
+{"step": 268000, "loss": 2.376, "examples_seen": 1097728000, "examples_per_sec": 13014, "hours": 22.805}
+{"step": 268500, "loss": 2.3766, "examples_seen": 1099776000, "examples_per_sec": 13084, "hours": 22.848}
+{"step": 269000, "loss": 2.375, "examples_seen": 1101824000, "examples_per_sec": 13050, "hours": 22.892}
+{"step": 269500, "loss": 2.3745, "examples_seen": 1103872000, "examples_per_sec": 13099, "hours": 22.935}
+{"step": 270000, "loss": 2.3736, "examples_seen": 1105920000, "examples_per_sec": 13156, "hours": 22.978, "eval_loss": 2.3502, "eval_wp_mae": 0.0243}
+{"step": 270500, "loss": 2.3741, "examples_seen": 1107968000, "examples_per_sec": 12863, "hours": 23.023}
+{"step": 271000, "loss": 2.3749, "examples_seen": 1110016000, "examples_per_sec": 13025, "hours": 23.066}
+{"step": 271500, "loss": 2.3746, "examples_seen": 1112064000, "examples_per_sec": 13085, "hours": 23.11}
+{"step": 272000, "loss": 2.3751, "examples_seen": 1114112000, "examples_per_sec": 13028, "hours": 23.153}
+{"step": 272500, "loss": 2.3756, "examples_seen": 1116160000, "examples_per_sec": 13104, "hours": 23.197}
+{"step": 273000, "loss": 2.3734, "examples_seen": 1118208000, "examples_per_sec": 13049, "hours": 23.24}
+{"step": 273500, "loss": 2.374, "examples_seen": 1120256000, "examples_per_sec": 13026, "hours": 23.284}
+{"step": 274000, "loss": 2.373, "examples_seen": 1122304000, "examples_per_sec": 12978, "hours": 23.328}
+{"step": 274500, "loss": 2.3741, "examples_seen": 1124352000, "examples_per_sec": 13076, "hours": 23.371}
+{"step": 275000, "loss": 2.3744, "examples_seen": 1126400000, "examples_per_sec": 13026, "hours": 23.415, "eval_loss": 2.354, "eval_wp_mae": 0.0244}
+{"step": 275500, "loss": 2.3745, "examples_seen": 1128448000, "examples_per_sec": 12846, "hours": 23.459}
+{"step": 276000, "loss": 2.3736, "examples_seen": 1130496000, "examples_per_sec": 13032, "hours": 23.503}
+{"step": 276500, "loss": 2.3754, "examples_seen": 1132544000, "examples_per_sec": 13008, "hours": 23.547}
+{"step": 277000, "loss": 2.3725, "examples_seen": 1134592000, "examples_per_sec": 13006, "hours": 23.59}
+{"step": 277500, "loss": 2.3731, "examples_seen": 1136640000, "examples_per_sec": 13009, "hours": 23.634}
+{"step": 278000, "loss": 2.372, "examples_seen": 1138688000, "examples_per_sec": 13087, "hours": 23.678}
+{"step": 278500, "loss": 2.3716, "examples_seen": 1140736000, "examples_per_sec": 13087, "hours": 23.721}
+{"step": 279000, "loss": 2.3721, "examples_seen": 1142784000, "examples_per_sec": 13116, "hours": 23.765}
+{"step": 279500, "loss": 2.373, "examples_seen": 1144832000, "examples_per_sec": 13037, "hours": 23.808}
+{"step": 280000, "loss": 2.3707, "examples_seen": 1146880000, "examples_per_sec": 13067, "hours": 23.852, "eval_loss": 2.3543, "eval_wp_mae": 0.0245}
+{"step": 280500, "loss": 2.3719, "examples_seen": 1148928000, "examples_per_sec": 12831, "hours": 23.896}
+{"step": 281000, "loss": 2.3708, "examples_seen": 1150976000, "examples_per_sec": 13080, "hours": 23.94}
+{"step": 281500, "loss": 2.3709, "examples_seen": 1153024000, "examples_per_sec": 13028, "hours": 23.983}
+{"event": "end", "step": 281694, "eval_loss": 2.3533, "eval_wp_mae": 0.0242}

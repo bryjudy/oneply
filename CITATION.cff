@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, the checkpoints, or these results, please cite it as below."
+title: "little-search-chess: how much does one ply of search amplify a learned chess evaluation?"
+authors:
+  - family-names: Judy
+    given-names: Bryce
+type: software
+year: 2026
+repository-code: "https://github.com/bryjudy/little-search-chess"
+license: MIT
+keywords:
+  - chess
+  - transformers
+  - action-value
+  - search
+  - Stockfish
+  - ChessBench

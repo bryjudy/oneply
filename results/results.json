@@ -1,0 +1,50 @@
+{
+  "_note": "All numbers hand-transcribed from the project log during the July 2026 runs. Matches are 10 games each (5 as White, 5 as Black), model score out of 10. Puzzles are the first n rows of DeepMind's ChessBench puzzles.csv, solved only if every model move matches the solution (an alternative checkmate counts). d1 = depth-1 argmax over the net's action values (no search); d2 = depth-2 pruned minimax, beam 8 (~180 net evaluations per move, one or two batched GPU forwards).",
+  "models": {
+    "nano":  {"params": 1075712,  "d_model": 128, "n_layers": 4,  "examples_seen": 41500000,   "epochs": 1.15, "hardware": "Apple M-series CPU", "hours": 10,  "approx_cost_usd": 0,   "eval_loss": 3.3422, "eval_wp_mae": 0.0802, "batch": 512},
+    "av9m":  {"params": 6883200,  "d_model": 256, "n_layers": 8,  "examples_seen": 1153818624, "epochs": 2.8,  "hardware": "1x A100-80GB",       "hours": 24,  "approx_cost_usd": 20,  "eval_loss": 2.3533, "eval_wp_mae": 0.0242, "batch": 4096},
+    "av55m": {"params": 51568256, "d_model": 512, "n_layers": 16, "examples_seen": 2069438464, "epochs": 2.3,  "hardware": "1x A100-80GB",       "hours": 120, "approx_cost_usd": 100, "eval_loss": 2.1091, "eval_wp_mae": 0.0184, "batch": 2048}
+  },
+  "unique_training_examples": {"nano": 36084047, "av9m": 413204034, "av55m": 905791081},
+  "puzzles": [
+    {"model": "nano",  "checkpoint": "final",      "examples_seen": 41500000,   "n": 400,  "d1": 21.5, "d2": 25.25},
+    {"model": "av9m",  "checkpoint": "step 55k",   "examples_seen": 225000000,  "n": 1000, "d1": 53.4, "d2": 67.2},
+    {"model": "av9m",  "checkpoint": "final",      "examples_seen": 1153818624, "n": 1000, "d1": 76.9, "d2": 81.5},
+    {"model": "av55m", "checkpoint": "491M",       "examples_seen": 491000000,  "n": 1000, "d1": 79.8, "d2": 87.8},
+    {"model": "av55m", "checkpoint": "final",      "examples_seen": 2069438464, "n": 1000, "d1": 86.9, "d2": 92.0}
+  ],
+  "deepmind_reference_puzzles": {
+    "_source": "Ruoss et al., Amortized Planning with Large-Scale Transformers: A Case Study on Chess (arXiv 2402.04494v2), Table 1; 10k puzzles, no search, trained on 15.3B action values",
+    "9M": 88.9, "136M": 94.5, "270M": 95.4
+  },
+  "skill_matches": {
+    "_note": "Stockfish at the given UCI Skill Level, 50 ms per move, single thread. nano played Stockfish 18; av9m/av55m played Stockfish 17.1.",
+    "rows": [
+      {"model": "nano",  "checkpoint": "final",    "sf_skill": 0, "search": "d1", "score": 0.5},
+      {"model": "nano",  "checkpoint": "final",    "sf_skill": 0, "search": "d2", "score": 1.5},
+      {"model": "av9m",  "checkpoint": "step 55k", "sf_skill": 0, "search": "d1", "score": 9.0},
+      {"model": "av9m",  "checkpoint": "step 55k", "sf_skill": 2, "search": "d1", "score": 5.0},
+      {"model": "av9m",  "checkpoint": "step 55k", "sf_skill": 3, "search": "d2", "score": 8.5},
+      {"model": "av9m",  "checkpoint": "final",    "sf_skill": 3, "search": "d1", "score": 9.0},
+      {"model": "av9m",  "checkpoint": "final",    "sf_skill": 5, "search": "d2", "score": 8.5},
+      {"model": "av55m", "checkpoint": "491M",     "sf_skill": 5, "search": "d2", "score": 9.5}
+    ]
+  },
+  "node_ladder": {
+    "_note": "av55m with depth-2 beam-8 search (~180 net evals/move) vs FULL-STRENGTH Stockfish 17.1 limited to N nodes per move. 10 games per rung. Crossover = the node count where the score crosses 5/10.",
+    "rows": [
+      {"examples_seen": 696000000,  "label": "0.70B (34%)", "sf_nodes": 100,   "score": 9.5},
+      {"examples_seen": 696000000,  "label": "0.70B (34%)", "sf_nodes": 400,   "score": 9.0},
+      {"examples_seen": 696000000,  "label": "0.70B (34%)", "sf_nodes": 1600,  "score": 5.5},
+      {"examples_seen": 696000000,  "label": "0.70B (34%)", "sf_nodes": 3200,  "score": 2.5},
+      {"examples_seen": 696000000,  "label": "0.70B (34%)", "sf_nodes": 6400,  "score": 1.0},
+      {"examples_seen": 907000000,  "label": "0.91B (44%)", "sf_nodes": 3200,  "score": 6.0},
+      {"examples_seen": 1540000000, "label": "1.54B (74%)", "sf_nodes": 6400,  "score": 3.5},
+      {"examples_seen": 2069438464, "label": "2.07B (final)", "sf_nodes": 3200,  "score": 6.0},
+      {"examples_seen": 2069438464, "label": "2.07B (final)", "sf_nodes": 6400,  "score": 1.0},
+      {"examples_seen": 2069438464, "label": "2.07B (final)", "sf_nodes": 12800, "score": 3.0}
+    ],
+    "crossover_estimate_nodes": {"0.70B": 1750, "0.91B": 3300, "1.54B": 4500, "2.07B": 4000},
+    "crossover_note": "Final-checkpoint rungs are non-monotone (6.0 at 3200, 1.0 at 6400, 3.0 at 12800): that is 10-game noise, so the final crossover is quoted as a range, roughly 3,500-4,500 nodes."
+  }
+}
