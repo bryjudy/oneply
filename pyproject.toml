@@ -1,5 +1,5 @@
 [project]
-name = "little-search-chess"
+name = "oneply"
 version = "0.1.0"
 description = "Action-value chess transformers trained on ChessBench, plus a batched shallow search, benchmarked against node-limited Stockfish"
 readme = "README.md"

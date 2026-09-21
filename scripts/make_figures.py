@@ -217,7 +217,7 @@ def fig_summary_card():
     ax.plot([], [], "o-", color=BLUE, label="34% trained")
     ax.plot([], [], "o", color=INK, label="final checkpoint")
     ax.legend(loc="upper right", frameon=False, fontsize=10)
-    fig.text(0.04, 0.02, "github.com/bryjudy/little-search-chess", fontsize=10, color=INK3)
+    fig.text(0.04, 0.02, "github.com/bryjudy/oneply", fontsize=10, color=INK3)
     fig.savefig(OUT / "summary_card.png", dpi=180)
     plt.close(fig)
 

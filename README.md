@@ -1,4 +1,4 @@
-# little-search-chess
+# oneply
 
 Small chess transformers that predict Stockfish's evaluation of each move, plus one or two plies of batched search on top. The question: how much does a little search amplify a learned evaluation, and how many nodes of full-strength Stockfish is that worth?
 
@@ -53,7 +53,7 @@ All numbers are in [results/results.json](results/results.json); per-step traini
 
 ## Checkpoints
 
-Weights are on the [releases page](https://github.com/bryjudy/little-search-chess/releases) (optimizer state stripped):
+Weights are on the [releases page](https://github.com/bryjudy/oneply/releases) (optimizer state stripped):
 
 | file | params | config | size |
 |---|---|---|---|
@@ -69,7 +69,7 @@ Python 3.11+, PyTorch, python-chess, numpy, pandas. [uv](https://docs.astral.sh/
 
 ```
 uv sync
-mkdir -p release && curl -L -o release/av55m.pt https://github.com/bryjudy/little-search-chess/releases/download/v0.1/av55m.pt
+mkdir -p release && curl -L -o release/av55m.pt https://github.com/bryjudy/oneply/releases/download/v0.1/av55m.pt
 curl -L -o data/puzzles.csv https://storage.googleapis.com/searchless_chess/data/puzzles.csv --create-dirs
 
 uv run python play.py --ckpt release/av55m.pt --fen "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
